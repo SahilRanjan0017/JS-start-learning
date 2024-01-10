@@ -18,6 +18,8 @@ tinderuser.islogin=false
 //         }
 //     }
 // }
+// So here we are also nested so many of the object in one of the object 
+
 // console.log(regularUser.fullname?.userFullName.firstname);
 // console.log(regularUser[fullname[userFullName[firstname]]]);
 // so here we saw that they say full name not defined but it is defined so . opertor is use most of time to use object to object nested.
