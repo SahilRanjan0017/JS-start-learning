@@ -1,14 +1,14 @@
 // const score = 400
 // console.log(score)
 
-// const balance = new Number(100.432)
+const balance = new Number(100.432)
 // console.log(balance);
 
 // // 400
 // // [Number: 100]
 
-// console.log(balance.toFixed(2));
-// console.log(balance.toPrecision(3));
+console.log(balance.toFixed(2));
+console.log(balance.toPrecision());
 
 // const hundred= 1000000
 // console.log(hundred.toLocaleString('en-IN'));

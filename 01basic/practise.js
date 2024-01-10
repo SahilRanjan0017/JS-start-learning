@@ -43,7 +43,7 @@
 // // console.log(+"");           give 0 for this null value 
 // // console.log(""+)        // give error
 
-// let x=5
+// let x=5  but if we write const x it is not changed values
 // const y=++x
 // because here the x where the reference of memeroy 
 // is get ++ for the x and now it preincrement by 1 
@@ -55,7 +55,7 @@
 // console.log(u);
 
 // compare the number 
-// console.log(4===4)
+// console.log(4===4) // it is use to check direct is euqal or not to the string to sstring or num to num type
 
 // const heros=["sahil","shivam","monu","sonu"]
 // console.log(heros[2]);
@@ -68,11 +68,12 @@
 // console.log(myobj.name);
 // function treat as a variable 
 
-// let sahil = function(age){
-//     console.log(age);
-//     console.log("sahil singh");
-// }
-// console.log(sahil)
+let sahil = function(age){
+    console.log(age);
+    console.log("sahil singh");
+}
+console.log(sahil(3))
+// so we work as the give value of age in the function and at the output as we use variable name to call them .s
 
 
     // $ String Fuction 

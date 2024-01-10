@@ -29,13 +29,13 @@
 // array 
 // object 
 
-// const heros=["sahil","aayansh","aahan"];
-// let myId= {
-//     name: "sahil",
-//     age:22,
-// }
+const heros=["sahil","aayansh","aahan"];
+let myId= {
+    name: "sahil",
+    age:22,
+}
 
 const myfunction = function(){
-    console.log("sahil singh ")
+   console.log( heros.name="sahil singh")
 }
-console.log(myfunction);
+console.log(myfunction());

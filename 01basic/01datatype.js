@@ -15,8 +15,9 @@
 // object;
 
 console.log(typeof null);
+// give object as output
 
 // symbol
 
 
-console.log("hitesh")
+// console.log("hitesh")

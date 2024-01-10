@@ -38,6 +38,7 @@ const dc_Hero=["superman","batman","flash"]
  
 // const all_new_heros=[... marvel_Hero , ... dc_Hero]
 // console.log(all_new_heros);
+// this method known as a spred method 
 
 // real another array 
 // const anothe_array =[1,2,3,[4,5,6],7,[6,7,[4,5]]]
