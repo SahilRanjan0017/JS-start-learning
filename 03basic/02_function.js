@@ -13,6 +13,12 @@
 // function calculatecartpricee(val1,val2,...number){
 //     return number;
 // }
+// sum function 
+function sum(var1,var2,var3){
+    return var1+var2+var3
+}
+const thesum=sum(1,2,3);
+console.log(thesum);
 // console.log(calculatecartpricee(33,44,22,44,22,))
 // so here it take value 33 for val1 and 44 for val2 and rest of the number became in the array .
 
@@ -57,10 +63,10 @@
 // sum([1,2,3,4,5,6,7,7,8,8,8,5,[4,4],4])
 
 // create the array 
-const mynewarray=[200,300,440]
+// const mynewarray=[200,300,440]
 
-function returarray(getarray){
-    return getarray
-}
+// function returarray(getarray){
+//     return getarray
+// }
 
-console.log(returarray(mynewarray))
+// console.log(returarray(mynewarray))

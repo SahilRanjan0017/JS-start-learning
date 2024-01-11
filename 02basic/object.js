@@ -7,6 +7,20 @@
 // // // const myarr=["hi","hello"]   0 and 1 key is fix 
 // // // console.log(myarr[0],myarr[1])
 // // // but in object we give 0 as name or may be 0 also 
+// create one symbol and add them to the object as type of symbol in that same 
+const symb = Symbol("Megha")
+const object={
+    name:"Sahil singh",
+    [symb]:"key_secured",
+    mobile:"4315560",
+}
+// some feature of the object we discussed here 
+// object.mobile="883829" // so here it easily change the value of the mobile number 
+//but if i use the freeze function here the the object is freeze and the value of that is not change furture 
+// Object.freeze(object)
+// object.mobile="+11"// so here the date is not change due the previous freeze function 
+
+// console.log(object.mobile)
 // // const mysymbol =Symbol("mykey1")
 // // console.log(typeof mysymbol)
 // // const JsUser ={
@@ -47,6 +61,17 @@
 
 // // Object.freeze(JsUser)
 // //due to this freeze now no change and not propagate new value 
+
+// now use the function in the object 
+const Employee={
+    EmpId:"1",
+    EmpSalary:"150000",
+    EmpName:"Sahil Singh"
+}
+Employee.welcome=function(){
+    console.log(`Dear ${Employee.EmpName},Welcome To Our Company Google , Your Generated Id is ${this.EmpId} and your Base permonth salary is ${this.EmpSalary}`);
+}
+console.log(Employee.welcome())
 
 // const obj={
 //     name:"Sahil",
