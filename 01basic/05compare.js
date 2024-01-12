@@ -1,3 +1,4 @@
+/// here we use === to the proper compare between the two value with string number and other types 
 // console.log(2>1)
 // console.log(2>=1)
 // console.log(2<1)
@@ -9,6 +10,7 @@
 // console.log(null>0)     //false
 // console.log(null==0)    // false
 // console.log(null>=0);  // true
+console.log(null>=0)    // it give the value of true due to the some error in the javascript 
 
 // console.log(undefined==0);
 

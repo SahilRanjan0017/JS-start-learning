@@ -34,8 +34,22 @@ let myId= {
     name: "sahil",
     age:22,
 }
+const superhero=["Sahil is always the hero","Shivam is my brother "]
+// this is the array 
+// and the object is 
+// const mysb=Symbol(12)
+// let myphone={
+//     id:"233"
+//     [mysb]="333"
+// }
+// console.log(myphone)
 
 const myfunction = function(){
-   console.log( heros.name="sahil singh")
+//    console.log( heros.name="sahil singh")
 }
-console.log(myfunction());
+// console.log(myfunction());
+
+const sum = function(val1,val2){
+    return val1+val2
+}
+console.log(sum(2,3))

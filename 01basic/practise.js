@@ -72,12 +72,12 @@ let sahil = function(age){
     console.log(age);
     console.log("sahil singh");
 }
-console.log(sahil(3))
+// console.log(sahil(3))
 // so we work as the give value of age in the function and at the output as we use variable name to call them .s
 
 
     // $ String Fuction 
-// const gamename="Grand Thief Auto"
+const gamename="Grand Thief Auto"
 // console.log(gamename.anchor());
 // //<a name="undefined">Grand Thief Auto</a>
 
@@ -119,6 +119,10 @@ console.log(sahil(3))
 // <font size="3">Grand Thief Auto</font>
 
 // let word ="auto"
+// it is use to check the word is present in that or not by the help of this 
+// const word="auto"
+// console.log(`${word ? "is":"not available"}`)
+
 // console.log(`${word ? "is" : "not"}`)
 
 // console.log(gamename.indexOf("d"))
@@ -140,6 +144,11 @@ const str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 const regexp = /[D-E]/gi;  // show we have to write /[] /gi and where to where you just want to get in the string 
 // const matches = str.match(regexp);
 // console.log(matches);
+// split function 
+const word="my name is sahil singh"
+const worrd=word.split(' ')
+console.log(worrd)
+// so this function change the full string in the array why the space which we use to in split function 
 
 // const strr="The quick brown fox jumps over the lazy dog"
 
@@ -150,6 +159,7 @@ const regexp = /[D-E]/gi;  // show we have to write /[] /gi and where to where y
 // word[1]= quick
 // let sample1='sat Saturday night dj plan'
 // console.log(sample1.startsWith('sat'));
+
 
 // console.log(sample1.startsWith('plan',4))
 // const str1 = 'Saturday night plans';

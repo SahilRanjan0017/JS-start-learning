@@ -1,4 +1,6 @@
 // // this is the second of the object 
+const tinderuser=new Object()
+tinderuser.name="sushil sharma"
 // // const tinderuser = new Object() // this is singleton object
 // // it give simple as a empty object
 // let tinderuserr={}
@@ -13,6 +15,17 @@
 // tinderuser.islogin=false
 
 // // console.log(tinderuser);
+const regularappuser={
+    email:"Sahilsingh@gmail.com",
+    fullname:{
+        firstname:"Sahil",
+        lastname:"Singh",
+        middlename:{
+            included:"some character"
+        }
+    }
+}
+console.log(regularappuser.fullname.middlename.included)
 
 // // for regular user
 // // const regularUser={
@@ -54,14 +67,16 @@
 
 // // object merge and combine 
 //         // here we are combining and the marging of the object in the one 
-//         const object1={
-//             "1":"999",
-//             "2":"1999"
-//         }
-//         const object2={
-//             "3":"2999",
-//             "4":"3999"
-//         }
+        const object1={
+            "1":"999",
+            "2":"1999"
+        }
+        const object2={
+            "3":"2999",
+            "4":"3999"
+        }
+        const finialobject = Object.assign({},object1,object2)
+        // console.log(finialobject)
 //         // so Object.assign is the function in which we assign their values 
 //         // const finaialarray=object.assign({},object1,object2)
 //         // we also use the spread here to the make direct all seprated in one 

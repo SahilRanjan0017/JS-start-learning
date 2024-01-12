@@ -7,17 +7,25 @@
 // console.log(usertwo.name);
 
 
-// string 
+// // string 
 // const name="sahil"
-// const city="Bhopal"
-// let value="lakes"
-// console.log("singh" + name);
-
+// // const city="Bhopal"
+// // let value="lakes"
+// const sahil = new String ("Sahil Singh")// this is String which we add first with new to get all the function of the string in our code 
+// console.log(sahil.toUpperCase());
+// const student = new String("Delhi Public School")
+// console.log(`${student.length}`);
+// console.log(student.concat("Best School Ever"))
 // console.log(`Hello my name is ${name}and happy`)
 
 // console.log(`Hey My Name is ${name}and im from the ${city} which know as the city of ${value} and water`)
 
-const gamename = new String("sahil singh")
+// const gamename = new String("sahil singh")
+
+
+// const gamename= new String("Grand Theif Auto")
+// console.log(gamename.replace("Grand","Sahil"))
+// here we use , for replace the Grand by the other 
 
 // console.log(gamename[0])
 // console.log(gamename.__proto__);

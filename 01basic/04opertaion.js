@@ -1,5 +1,6 @@
 // // operations
 
+
 // // let value =3
 // // let negvalue = - value
 // // // console.log(2**3)  2*2*2=8
@@ -15,6 +16,20 @@
 
 // // let num1,num2,num3
 // // num1=num2=num3=2+2;
+// let n1=3,n2=4,n3=5
+// console.log(n1+n2+n3)
+
+let gamecounterkill=12
+gamecounterkill++ 
+// console.log(gamecounterkill)
+gamecounterkill--
+// console.log(gamecounterkill);
+
+let a=3
+// let b=++3       // so ++3 or 3++ both give error in javascript
+console.log(a);// here the value is 3 but after b=++a value is change in the a and give 4 as output
+let b=++a
+console.log(a)
 
 // let gamecounter =100
 // gamecounter++       //post increment give value 101

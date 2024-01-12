@@ -60,7 +60,15 @@ const object={
 // // obj[Object(sym)]; // still 1
 
 // // Object.freeze(JsUser)
-// //due to this freeze now no change and not propagate new value 
+// // //due to this freeze now no change and not propagate new value 
+// const sym=Symbol("mykey")
+// const newobject ={
+//     1:"dog",
+//     2:"cat",
+//     3:"donkey",
+//     [sym]:"mykey"
+// }
+// console.log(newobject)
 
 // now use the function in the object 
 const Employee={
@@ -68,16 +76,27 @@ const Employee={
     EmpSalary:"150000",
     EmpName:"Sahil Singh"
 }
-Employee.welcome=function(){
-    console.log(`Dear ${Employee.EmpName},Welcome To Our Company Google , Your Generated Id is ${this.EmpId} and your Base permonth salary is ${this.EmpSalary}`);
+Employee.greeting=function(){
+    console.log(`Welcome ${this.EmpName} To the world of Technology Your generate id is ${this.EmpId}, and your salary is ${this.EmpSalary} Thanks`)
 }
-console.log(Employee.welcome())
-
-// const obj={
-//     name:"Sahil",
-//     work:"indepent",
-//     salary:"1 crore",
+// console.log(Employee.greeting()) // so they want to console bye employee function of greeting here
+// Employee.welcome=function(){
+//     console.log(`Dear ${Employee.EmpName},Welcome To Our Company Google , Your Generated Id is ${this.EmpId} and your Base permonth salary is ${this.EmpSalary}`);
 // }
+// console.log(Employee.welcome())
+
+const obj={
+    name:"Sahil",
+    work:"indepent",
+    salary:"1 crore",
+}
+obj.greeting = function(){
+    console.log("happy journey");
+}
+obj.twogreeting=function(){
+    console.log("This is the second journey of the object")
+}
+console.log(obj.greeting(),obj.twogreeting());
 
 // obj.greeting = function(){
 //     console.log("Hello User");

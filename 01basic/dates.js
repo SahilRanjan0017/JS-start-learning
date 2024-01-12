@@ -28,3 +28,7 @@
 // console.log(newDate.getFullYear());
 
 // newDate.toLocaleString('default',{weekday:"long",})
+
+const Todaydate = new Date()
+    console.log(Todaydate.getDate());
+    console.log(Todaydate.getMilliseconds());
