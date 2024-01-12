@@ -57,13 +57,29 @@
 // else {
 //     console.log("sorry");
 // }
-const month=3
+// const month=3
 
-switch(month){
-    case 1:
-        console.log("january");
-    case 2:
-        console.log("February");
-    case 3:
-        console.log("march")
+// switch(month){
+//     case 1:
+//         console.log("january");
+//     case 2:
+//         console.log("February");
+//     case 3:
+//         console.log("march")
+// }
+
+const mon="mar"
+switch (mon){
+    case "jan":
+        console.log("january")
+        break;
+    case "feb":
+        console.log("February")
+        break;
+    case "mar":
+        console.log("March The best MOnth ever")
+        break;
+    default:
+        console.log("Please give correct value to executed")
+        break;
 }
