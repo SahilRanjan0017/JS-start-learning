@@ -29,6 +29,10 @@
 
 // newDate.toLocaleString('default',{weekday:"long",})
 
-const Todaydate = new Date()
-    console.log(Todaydate.getDate());
-    console.log(Todaydate.getMilliseconds());
+// const Todaydate = new Date()
+//     console.log(Todaydate.getDate());
+//     console.log(Todaydate.getMilliseconds());
+
+
+let Naya_Date = new Date()
+console.log(Naya_Date.getDate())

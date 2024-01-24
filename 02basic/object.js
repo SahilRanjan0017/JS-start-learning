@@ -90,6 +90,9 @@ const obj={
     work:"indepent",
     salary:"1 crore",
 }
+function mygreeting(){
+    
+}
 obj.greeting = function(){
     console.log("happy journey");
 }

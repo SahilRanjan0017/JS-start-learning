@@ -1,3 +1,12 @@
+let score =22
+var scorre=22
+const scoore = 22
+
+let saving_money = 43281.2342
+let saving_balance=Number(saving_money)
+saving_balance.toPrecision()
+console.log(saving_balance)
+
 // let score =22
 // cricket game playing some where so there are two teams score 
 // // for number

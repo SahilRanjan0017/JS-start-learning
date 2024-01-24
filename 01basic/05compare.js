@@ -1,4 +1,4 @@
-/// here we use === to the proper compare between the two value with string number and other types 
+ /// here we use === to the proper compare between the two value with string number and other types 
 // console.log(2>1)
 // console.log(2>=1)
 // console.log(2<1)

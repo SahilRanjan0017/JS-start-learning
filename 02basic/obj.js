@@ -1,6 +1,11 @@
-// // this is the second of the object 
-const tinderuser=new Object()
-tinderuser.name="sushil sharma"
+// // // this is the second of the object 
+// const tinderuser=new Object()
+// tinderuser.name="sushil sharma"
+let bumbleuser=new Object()
+bumbleuser.name = "Sudhanshu Mehra"
+bumbleuser.age = 23
+
+// console.log(bumbleuser.name)
 // // const tinderuser = new Object() // this is singleton object
 // // it give simple as a empty object
 // let tinderuserr={}
@@ -25,7 +30,7 @@ const regularappuser={
         }
     }
 }
-console.log(regularappuser.fullname.middlename.included)
+// console.log(regularappuser.fullname.middlename.included)
 
 // // for regular user
 // // const regularUser={
@@ -75,7 +80,9 @@ console.log(regularappuser.fullname.middlename.included)
             "3":"2999",
             "4":"3999"
         }
-        const finialobject = Object.assign({},object1,object2)
+        const finalobjectt = Object.assign({},object1,object2)
+        console.log(finalobjectt)
+        // const finialobject = Object.assign({},object1,object2)
         // console.log(finialobject)
 //         // so Object.assign is the function in which we assign their values 
 //         // const finaialarray=object.assign({},object1,object2)

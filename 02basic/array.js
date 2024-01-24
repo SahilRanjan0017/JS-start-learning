@@ -1,5 +1,9 @@
 // console.log("Welcome to your second basic lecture")
+const myarray=[1,3,4,5,6,7]
+// const myyarray = new Array(1,2,3,4,5,6,7)
+myarray.unshift(11,22,33,44,55)
 
+console.log(`${myarray}`)
 // array 
 // const mynumber=[1,2,3,4,5]
 // mynumber.unshift(11,22,33) // this add new values in the front of the array
@@ -72,6 +76,7 @@ const myarr=[1,3,5,7,9]
 
 const marvel_Hero=["thor","Ironman","Spiderman"]
 const dc_Hero=["superman","batman","flash"]
+console.log(...marvel_Hero,...dc_Hero)
 // we have to spread them 
 // console.log(marvel_Hero.concat(dc_Hero))
 // console.log(...marvel_Hero,...dc_Hero) // so it is spread the all single value to 
@@ -111,6 +116,7 @@ const dc_Hero=["superman","batman","flash"]
 // const anothe_array =[1,2,3,[4,5,6],7,[6,7,[4,5]]]
 // const SomeBigNumberValueArray=[1,2,3,[6,7,8,3],[2,4,5]]
 const numb=[1,2,3,4,5,[6,7,8,89],[2,3,4]]
+console.log(numb.flat(Infinity))
 // console.log(numb)
 // console.log(numb.flat(Infinity)) // this is the function which is flat all the value seprated of my nested array to 
 // console.log(SomeBigNumberValueArray.flat(Infinity))
@@ -123,6 +129,10 @@ const numb=[1,2,3,4,5,[6,7,8,89],[2,3,4]]
 
 // now there are 3 main of array 
 // array is of from 
+console.log(Array.isArray("Sahil"))
+console.log(Array.of("sahil"))// is for only number 
+console.log(Array.of(33,4,5,6,6,))
+console.log(Array.from("Sahil"))
 const china= new Array(1,2,6,3,7,9)
 // console.log(Array.isArray(china))
 // console.log(Array.isArray("Sahil singh"))
@@ -155,7 +165,7 @@ const china= new Array(1,2,6,3,7,9)
 let score1=100
 let score2=200
 let score3=300
-console.log(Array.of(score1,score2,score3))
+// console.log(Array.of(score1,score2,score3))
 
 // console.log(Array.of(score1,score2,score3))
 

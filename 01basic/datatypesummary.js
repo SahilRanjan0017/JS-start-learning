@@ -52,4 +52,9 @@ const myfunction = function(){
 const sum = function(val1,val2){
     return val1+val2
 }
-console.log(sum(2,3))
+// console.log(sum(2,3))
+
+const summ= function(item1,item2){
+    return item1+item2;
+}
+console.log(summ(4,67))

@@ -5,7 +5,18 @@
 // let usertwo = userone;
 // usertwo.name="shivam ranjan"
 // console.log(usertwo.name);
-
+let hotel={
+    name:"OkayaIN",
+    email:"okaya@gmail",
+    number:98342,
+    floor:{
+        ground_floor_owner:"Sandeep Nigam",
+        upper_floor:{
+            Manager:"sakshi mehta"
+        }
+    }
+}
+console.log(`The manger of the ground floor and the upper floor manger are ${hotel.floor.ground_floor_owner} and upper floor manger is ${hotel.floor.upper_floor.Manager}`)
 
 // // string 
 // const name="sahil"

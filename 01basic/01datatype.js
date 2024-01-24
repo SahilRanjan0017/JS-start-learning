@@ -45,3 +45,6 @@
 
 
 // console.log("hitesh")
+
+console.log("Sahil Singh is now on the way of the Software Developer Life Style")
+console.log(`So We all know what is the key value of the unique key five = ${5}`)

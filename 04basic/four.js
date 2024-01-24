@@ -1,6 +1,10 @@
 // forin loop
 // const coding = ["js","ruby","java"]
 
+const Emp_salary =[1200,4433,9834]
+console.log(Emp_salary.forEach(function(item){
+console.log(item)}))
+
 // coding.forEach(function (item){console.log(item);} )
 // for each 
 // const number=[1,2,3,4,5,6]
@@ -14,6 +18,8 @@
 // hero.forEach((item)=>{
 //     console.log(item)
 // })
+const superherro=["sahil","batman0","shinchain"]
+superherro.forEach(function(s){console.log(s)})
 // here the arrow function use to get value
 
 // function printme(item){
@@ -53,7 +59,7 @@ const mycoding=[{
 // }
 // mycoding.forEach(Sahil)
 
-function shivam(val){
-    console.log(val.languageFileName);
-}
-mycoding.forEach(shivam)
+// function shivam(val){
+//     console.log(val.languageFileName);
+// }
+// mycoding.forEach(shivam)

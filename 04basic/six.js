@@ -3,7 +3,13 @@
 // mynumber.forEach((item,value)=>{
 //     console.log(`item ${item},the value ${value}`);
 // })
+// const numberofarray=[11,22,33,44,55,66,77,88,99]
+// numberofarray.forEach((item,value)=>{
+//     console.log(`item ${item} and the value ${value}`)
+// })
 
+// const nmapvalue = numberofarray.map((item)=>item +10)
+// console.log(nmapvalue)
 //     // call back story function ()=>{}
 //     // always return when scope have to open 
 
@@ -40,7 +46,10 @@
 // const mynum=[1,2,3]
 // const mytotal=mynum.reduce((acc,curr)=>acc+curr,0)
 // console.log(mytotal);
+const numsger =[2,5,6,7]
+const mytotalvalue = numsger.reduce((accu,curval)=>accu+curval,3)
 
+console.log
 // shopping cart 
 const shoppingcart=[
     {
@@ -57,5 +66,6 @@ const shoppingcart=[
     },
 ]
 const pricetopay =shoppingcart.reduce((acc,item)=> acc+item.price,0)
+console.log(pricetopay)
 
-console.log(pricetopay);
+// console.log(pricetopay);

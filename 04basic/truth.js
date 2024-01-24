@@ -42,3 +42,8 @@ val1= null ?? 10 ?? 12
 
 const Iceteaprice =40
 Iceteaprice >=20 ? console.log("yeah we get it"):console.log("sorry we dont get the icetea")
+
+
+
+
+

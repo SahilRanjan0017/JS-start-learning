@@ -4,7 +4,7 @@
 //     username:"Hacker"
 //     , ping : 93
     
-//     ,welcomemessage:function(){
+//     ,welcomemessage:function(){  // here welcomemessege is key and function is the value of that key 
 //         console.log("Welcome the juser we are really happy to see you again ")
 //         ,console.log(this.username)
 //     }
@@ -40,10 +40,11 @@
 //     console.log(this);
 // }
 
-// const chaileela=()=>{
-//     fullName="Sahil singh",
-//     console.log(this)
-// }
+const chaileela=()=>{
+    fullName="Sahil singh",
+    console.log(this)
+}
+
 // const sum=function(){
 //     valueofa="11",
 //     valueofb="22",

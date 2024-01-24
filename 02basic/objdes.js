@@ -5,8 +5,9 @@ const valuee={
     indiarupes:79,
     forigncurrency:929
 }
-const {forigncurrency:othermoney}=valuee;
-console.log(othermoney)
+const {forigncurrency:dollar}=valuee;
+// const {forigncurrency:othermoney}=valuee;
+console.log(dollar)
 // console.log(valuee.indiarupes);
 // if we want to access the same data many time then the problem occurs in the code 
 // so here we use short destructre 

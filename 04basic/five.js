@@ -5,6 +5,11 @@ mynums.forEach((val)=>{
         newnumsarray.push(val)
     }
 })
+mynums.forEach((item)=>{
+    if(item>4){
+        newnumsarray.push(item)
+    }
+})
 // console.log(newnumsarray);
 
 // const myarray =mynums.filter((num)=>num > 5)
@@ -33,12 +38,14 @@ const books = [
     { title: 'Book Eight', genre: 'Science', publish: 2011, edition: 2016 },
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
-  const libraryuser = books.forEach((item)=>{
-        console.log(item);
-  })
+//   const libraryuser = books.forEach((item)=>{
+//         console.log(item);
+//   })
 //   console.log(libraryuser);
-
-
+const libraryuser = books.filter((booknaming)=>{
+    return  (booknaming.genre==='History')
+})
+console.log(libraryuser)
 
 //   const libraryuser = books.filter((bookname)=>{
 //     return  (bookname.genre==='History'&& bookname.publish>2000) 
