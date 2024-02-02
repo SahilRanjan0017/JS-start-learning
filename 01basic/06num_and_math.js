@@ -31,7 +31,9 @@
 // math library is most use in the math.random 
 // console.log(Math.random())
 // console.log(Math.random()*10+1);
-// const math=new Math();
+// const math=new Math(); math is not a constructor
+// Unlike most global objects, Math is not a constructor. You cannot use it with the new operator or invoke the Math object as a function
+
 // const num=new Number(33.23)
 // console.log(Math.PI(33));
 

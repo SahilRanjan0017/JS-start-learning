@@ -13,6 +13,9 @@
 //     console.log("Server is connected successfully"
 //     )
 // })();
+(function maggie(){
+    console.log("You Connected Successfully to the server");
+})();
 // biscuit()
 // global scope pollution problem to solve use IIFE
 // () first function defination 
@@ -26,8 +29,11 @@
 //     console.log(`DB connected`)
 // })()     // it is also use as the arrow operator here 
 
-((name)=>{
-    console.log(`Finally the last of the db connection ${name}`);
-})("Sachin kumar")
+// ((name)=>{
+//     console.log(`Finally the last of the db connection ${name}`);
+// })("Sachin kumar")
+((sahil)=>{
+    console.log("Happiness is the key of your and mine successs");
+})()
 
 // one more thing in string interpolation after $you should not have to add any space for good working of that .
